@@ -1,0 +1,27 @@
+.mainBlock {
+    border: 1px solid;
+    height: 100vh;
+    background-color: rgba(250, 85, 85, 0.22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer {
+    border: 1px solid;
+    width:80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text {
+    background-color: aliceblue;
+}
+
+.photo {
+    width: 300px;
+    height: 400px;
+    background-color: aliceblue;
+}

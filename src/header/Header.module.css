@@ -1,3 +1,6 @@
 .header {
-
+    height: 80px;
+    background-color: #94aff5;
+    display: flex;
+    justify-content: flex-end;
 }

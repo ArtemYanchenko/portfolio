@@ -1,10 +1,12 @@
 import React from 'react';
 import classes from './Header.module.css'
+import style from '../common/Container.module.css'
+import Nav from '../nav/Nav';
 
 const Header = () => {
     return (
         <div className={classes.header}>
-            
+                <Nav/>
         </div>
     );
 };
