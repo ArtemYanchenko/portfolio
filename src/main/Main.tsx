@@ -1,6 +1,5 @@
 import React from 'react';
 import classes from './Main.module.css';
-import style from '../common/Container.module.css'
 
 const Main = () => {
     return (
@@ -13,7 +12,7 @@ const Main = () => {
                 </div>
                 <div className={classes.photo}></div>
             </div>
-            </div>
+        </div>
     );
 };
 
