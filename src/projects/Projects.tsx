@@ -12,6 +12,8 @@ const Projects = () => {
                 <div className={classes.projectContainer}>
                     <Project title={'Todo'} description={'description'} image={''}/>
                     <Project title={'Social Network'} description={'description'} image={''}/>
+                    <Project title={'Social Network'} description={'description'} image={''}/>
+                    <Project title={'Social Network'} description={'description'} image={''}/>
                 </div>
             </div>
         </div>
