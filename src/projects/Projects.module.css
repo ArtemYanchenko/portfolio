@@ -1,13 +1,13 @@
-.skills {
+.projects {
     height: 100vh;
-    background-color: rgba(0, 243, 165, 0.24);
+    background-color: rgba(236, 173, 255, 0.45);
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
-
-.skillsContainer {
+.projectsContainer{
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -17,12 +17,12 @@
     border: 1px solid;
 }
 
-
-.skillContainer {
-    width: 100%;
+.projectContainer {
     display: flex;
     border: 1px solid;
+    width: 100%;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .title{

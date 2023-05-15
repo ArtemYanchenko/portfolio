@@ -3,17 +3,16 @@ import classes from './Skill.module.css'
 import {log} from 'util';
 
 type PropsType = {
-    logo:string
-    title:string
-    description:string
+    logo: string
+    title: string
+    description: string
 }
 
 
-const Skill:FC<PropsType> = ({logo,title,description}) => {
+const Skill: FC<PropsType> = ({logo, title, description}) => {
     return (
         <div className={classes.skill}>
             <div className={classes.logo}>
-                <img src={logo} alt="logoSkill"/>
             </div>
             <h3>{title}</h3>
             <div className={classes.description}>{description}</div>
