@@ -12,7 +12,9 @@ type PropsType = {
 const Project:FC<PropsType> = ({image,title,description}) => {
     return (
         <div className={classes.project}>
-           <div className={classes.image}></div>
+           <div className={classes.image}>
+               <a href="#" className={classes.button}>Посмотреть</a>
+           </div>
            <span className={classes.title}>{title}</span>
            <p className={classes.description}>{description}</p>
         </div>

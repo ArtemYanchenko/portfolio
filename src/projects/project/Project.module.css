@@ -9,8 +9,21 @@
 }
 
 .image {
-    width: 500px;
+    width: 100%;
     height: 500px;
     background-color: #9bb1c5;
-    margin-bottom: 20px;
+    background-image: url("https://internetpolicy.kg/literacymodule/course_1/module1/images/pic1_2_1.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    background-color: aquamarine;
+    width: 100px;
+    line-height: 50px;
+    display: inline-block;
+
 }
