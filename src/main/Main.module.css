@@ -49,6 +49,10 @@
     text-transform: none;
 }
 
+.text a button{
+    cursor: pointer;
+}
+
 .typingText {
     color:#f59e0b;
     font-weight: 900 !important;

@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--bg-color);
+  color:var(--text-color);
 }
 
 code {
@@ -15,7 +16,7 @@ code {
 
 :root {
   --bg-color: #fff;
-  --text-color: #000;
+  --text-color: #161c2d;
 }
 
 

@@ -11,10 +11,10 @@ const ToggleDarkMode = () => {
     useEffect(() => {
         if (switchInput.current?.checked) {
             document.documentElement.style.setProperty('--bg-color', '#10172a');
-            document.documentElement.style.setProperty('color', '#fff');
+            document.documentElement.style.setProperty('--text-color', '#fff');
         } else {
             document.documentElement.style.setProperty('--bg-color', '#fff');
-            document.documentElement.style.setProperty('color', '#000');
+            document.documentElement.style.setProperty('--text-color', '#161c2d');
         }
     }, [isChecked]);
 

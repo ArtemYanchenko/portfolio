@@ -4,10 +4,10 @@ import classes from './Nav.module.css'
 const Nav = () => {
     return (
         <div className={classes.nav}>
-            <a href="">Главная</a>
-            <a href="">Скиллы</a>
-            <a href="">Проекты</a>
-            <a href="">Контакты</a>
+            <a href="" className={classes.navLink}>Main</a>
+            <a href="" className={classes.navLink}>Skills</a>
+            <a href="" className={classes.navLink}>Projects</a>
+            <a href="" className={classes.navLink}>Contact Me</a>
         </div>
     );
 };
