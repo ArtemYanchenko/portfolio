@@ -68,6 +68,11 @@
     color:rgb(246,158,11);
 }
 
+.buttonWrapper {
+    display: flex;
+    gap:20px;
+}
+
 .photo {
     min-width: 20%;
     min-height: 20%;

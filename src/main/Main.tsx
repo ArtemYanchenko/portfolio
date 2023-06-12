@@ -23,7 +23,11 @@ const Main = () => {
                         />
                     </div>
                     <p>based in <span className={classes.textLocation}>Moscow,Russia.</span></p>
-                    <Button title={'Hire me'} src={'#'}/>
+                    <div className={classes.buttonWrapper}>
+                        <Button title={'Hire me'} src={'#'}/>
+                        <Button title={'view my works'} src={'#'}/>
+                    </div>
+
                 </div>
                 <div className={classes.photo}>
                     <MainPhoto/>
