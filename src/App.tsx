@@ -1,18 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 import Header from './header/Header';
 import Main from './main/Main';
 import Skills from './skills/Skills';
 import Projects from './projects/Projects';
+import classes from './App.module.css';
+import ToogleDarkMode from './common/components/ToggleDarkMode/ToogleDarkMode';
 
 function App() {
     return (
-        <div className="App">
+        <div className={classes.app}>
             <Header/>
             <Main/>
             <Skills/>
             <Projects/>
+
         </div>
     );
 }

@@ -32,6 +32,7 @@ const MainPhoto: React.FC = () => {
                 <div className={classes.imageOverlay} style={{
                     backgroundPosition: `calc(50% + ${position.x / 10}px) calc(50% + ${position.y / 10}px)`
                 }}></div>
+
             </div>
     );
 };

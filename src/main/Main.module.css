@@ -5,12 +5,13 @@
 
 .mainBlock {
     height: 100vh;
-    background-color: rgba(250, 85, 85, 0.22);
+    background-color: var(--bg-color);
+    /*background-color: rgba(250, 85, 85, 0.22);*/
     display: flex;
     justify-content: center;
     align-items: center;
 
-    background: rgb(246,158,11);
+    /*background: rgb(246,158,11);*/
     background: linear-gradient(115deg, rgba(246,158,11,0.1012998949579832) 0%, rgba(246,158,11,0.1) 49%, rgba(246,158,11,0.35) 49%, rgba(246,158,11,0.35) 60%, rgba(246,158,11,1) 60%, rgba(246,158,11,1) 86%, rgba(246,158,11,0.1) 86%);
 }
 
