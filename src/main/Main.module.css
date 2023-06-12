@@ -4,6 +4,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    background: rgb(246,158,11);
+    background: linear-gradient(115deg, rgba(246,158,11,0.1012998949579832) 0%, rgba(246,158,11,0.1) 49%, rgba(246,158,11,0.35) 49%, rgba(246,158,11,0.35) 60%, rgba(246,158,11,1) 60%, rgba(246,158,11,1) 86%, rgba(246,158,11,0.1) 86%);
+
+    /*background: rgb(246,158,11);*/
+    /*background: linear-gradient(126deg, rgba(246,158,11,0.3) 0%, rgba(246,158,11,0.2973783263305322) 58%, rgba(246,158,11,0.5830926120448179) 58%, rgba(246,158,11,0.58) 66%, rgba(246,158,11,1) 66%, rgba(246,158,11,1) 66%, rgba(246,158,11,1) 86%, rgba(255,255,255,1) 86%);*/
 }
 
 .mainContainer {
@@ -13,14 +19,44 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    gap:20px;
 }
 
 .text {
+    /*width: 60%;*/
+    min-width: 60%;
     background-color: aliceblue;
+    font-size: 40px;
+}
+
+
+.text h4 {
+    line-height: 1.5;
+    margin: 0;
+    margin-bottom: 1rem !important;
+    font-weight: 900 !important;
+    font-family: "Poppins", sans-serif;
+}
+
+.typingText {
+    color:#f59e0b;
+    font-weight: 900 !important;
+    font-family: "Poppins", sans-serif;
 }
 
 .photo {
-    width: 300px;
-    height: 400px;
-    background-color: aliceblue;
+    min-width: 20%;
+    min-height: 20%;
+    display: block;
+    /*object-fit: cover;*/
+    overflow: hidden;
+    /*position: relative;*/
+    background-color: #fff;
+    border-radius: 100%;
+    border: 18px solid #fff;
+    -webkit-box-shadow: 0 0 25px 0 rgba(0,0,0,.1);
+    -moz-box-shadow: 0 0 25px 0 rgba(0,0,0,.1);
+    box-shadow: 0 0 25px 10px rgba(0,0,0,.1);
+
 }

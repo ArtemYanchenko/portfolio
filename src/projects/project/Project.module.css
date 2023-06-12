@@ -18,12 +18,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 15px;
 }
 
 .button {
     background-color: aquamarine;
-    width: 100px;
-    line-height: 50px;
-    display: inline-block;
+    border: 1px solid;
+    padding: 10px;
+}
 
+.title {
+    width: 80%;
+    background-color: #c4799c;
+}
+
+.description {
+    width: 80%;
+    background-color: #c4799c;
 }

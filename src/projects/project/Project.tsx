@@ -1,12 +1,10 @@
 import React, {FC} from 'react';
 import classes from './Project.module.css'
 
-
 type PropsType = {
     image:string
     title:string
     description:string
-
 }
 
 const Project:FC<PropsType> = ({image,title,description}) => {
