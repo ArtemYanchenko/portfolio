@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './Main.module.css';
-import Image from './MainPhoto/MainPhoto';
+import MainPhoto from './MainPhoto/MainPhoto';
 import Typed from "react-typed";
 
 const Main = () => {
@@ -8,7 +8,7 @@ const Main = () => {
         <div className={classes.mainBlock}>
             <div className={classes.mainContainer}>
                 <div className={classes.text}>
-                    <h4>Hey! I'm</h4>
+                    <h4>Hey!</h4>
                     <div>
                         <Typed className={classes.typingText}
                             strings={[
@@ -23,7 +23,7 @@ const Main = () => {
                     </div>
                 </div>
                 <div className={classes.photo}>
-                    <Image/>
+                    <MainPhoto/>
                 </div>
             </div>
         </div>

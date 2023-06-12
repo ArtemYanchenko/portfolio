@@ -8,7 +8,7 @@ interface Position {
     y: number;
 }
 
-const Image: React.FC = () => {
+const MainPhoto: React.FC = () => {
     const [position, setPosition] = useState<Position>({ x: 0, y: 0 });
 
     const handleMouseMove = (event: MouseEvent) => {
@@ -36,4 +36,4 @@ const Image: React.FC = () => {
     );
 };
 
-export default Image;
+export default MainPhoto;
