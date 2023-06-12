@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../common/fonts/Poppins/Poppins-Bold.ttf");
+}
+
 .mainBlock {
     height: 100vh;
     background-color: rgba(250, 85, 85, 0.22);
@@ -40,6 +45,7 @@
 }
 
 .typingText {
+    /*color:#f59e0b;*/
     color:#f59e0b;
     font-weight: 900 !important;
     font-family: "Poppins", sans-serif;

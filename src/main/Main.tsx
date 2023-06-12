@@ -9,8 +9,6 @@ const Main = () => {
             <div className={classes.mainContainer}>
                 <div className={classes.text}>
                     <h4>Hey! I'm</h4>
-                    {/*<h1>Меня зовут Артём Янченко</h1>*/}
-                    {/*<p>Я FrontEnd разработчик</p>*/}
                     <div>
                         <Typed className={classes.typingText}
                             strings={[
