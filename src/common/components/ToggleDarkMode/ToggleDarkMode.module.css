@@ -1,3 +1,9 @@
+.toogleWrapper{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
 .checkbox {
     display: none;
 }
