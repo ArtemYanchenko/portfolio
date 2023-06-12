@@ -39,10 +39,27 @@
     font-family: "Poppins", sans-serif;
 }
 
+.text p {
+    color:#94a3b8;
+    font-size: 25px;
+    font-weight: 100;
+    font-family: "Poppins", sans-serif;
+    opacity: 0.7;
+    text-transform: none;
+}
+
 .typingText {
     color:#f59e0b;
     font-weight: 900 !important;
     font-family: "Poppins", sans-serif;
+}
+
+.textLocation {
+    cursor: pointer;
+}
+
+.textLocation:hover {
+    color:rgb(246,158,11);
 }
 
 .photo {

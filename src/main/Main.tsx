@@ -21,6 +21,7 @@ const Main = () => {
                             loop
                         />
                     </div>
+                    <p>based in <span className={classes.textLocation}>Moscow,Russia.</span></p>
                 </div>
                 <div className={classes.photo}>
                     <MainPhoto/>
