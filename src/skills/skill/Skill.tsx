@@ -1,5 +1,5 @@
 import React, {FC, ReactNode} from 'react';
-import classes from './Skill.module.css'
+import style from './Skill.module.css'
 
 type PropsType = {
     title: string
@@ -9,8 +9,8 @@ type PropsType = {
 
 const Skill: FC<PropsType> = ({title, children}) => {
     return (
-        <div className={classes.skill}>
-            <div className={classes.logo}>
+        <div className={style.skill}>
+            <div className={style.logo}>
                 {children}
             </div>
             <h3>{title}</h3>

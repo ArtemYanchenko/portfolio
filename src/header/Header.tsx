@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import classes from './Header.module.css'
+import style from './Header.module.css'
 import Nav from '../nav/Nav';
 import ToogleDarkMode from '../common/components/ToggleDarkMode/ToogleDarkMode';
 
@@ -14,10 +14,10 @@ const Header = () => {
         return () => window.removeEventListener('scroll', onScroll);
     }, []);
 
-    const headerClasses = [classes.header];
+    const headerClasses = [style.header];
 
     if (scroll) {
-        headerClasses.push(classes.scroll);
+        headerClasses.push(style.scroll);
     }
 
     return (

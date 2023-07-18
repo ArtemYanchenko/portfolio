@@ -1,5 +1,5 @@
 import React, {FC} from 'react';
-import classes from './Project.module.css'
+import style from './Project.module.css'
 
 type PropsType = {
     image:string
@@ -9,12 +9,12 @@ type PropsType = {
 
 const Project:FC<PropsType> = ({image,title,description}) => {
     return (
-        <div className={classes.project}>
-           <div className={classes.image}>
-               <a href="#" className={classes.button}>Посмотреть</a>
+        <div className={style.project}>
+           <div className={style.image}>
+               <a href="#" className={style.button}>Посмотреть</a>
            </div>
-           <span className={classes.title}>{title}</span>
-           <p className={classes.description}>{description}</p>
+           <span className={style.title}>{title}</span>
+           <p className={style.description}>{description}</p>
         </div>
     );
 };

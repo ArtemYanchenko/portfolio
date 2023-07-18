@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import classes from './ToggleDarkMode.module.css';
+import style from './ToggleDarkMode.module.css';
 
 const ToggleDarkMode = () => {
     const [isChecked, setIsChecked] = useState(true);
@@ -21,9 +21,9 @@ const ToggleDarkMode = () => {
     }, [isChecked]);
 
     return (
-        <div className={classes.toogleWrapper}>
-            <input id="checkbox" ref={switchInput} className={classes.checkbox} type="checkbox" checked={isChecked} onChange={toggleTheme}/>
-            <label className={classes.switch} htmlFor="checkbox">
+        <div className={style.toogleWrapper}>
+            <input id="checkbox" ref={switchInput} className={style.checkbox} type="checkbox" checked={isChecked} onChange={toggleTheme}/>
+            <label className={style.switch} htmlFor="checkbox">
 
                 <svg width="30px" height="30px" viewBox="0 0 512.00 512.00" xmlns="http://www.w3.org/2000/svg"
                      fill="#fff" stroke="#fff" stroke-width="0.00512">

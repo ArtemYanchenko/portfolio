@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './Skills.module.css'
+import style from './Skills.module.css'
 import Skill from './skill/Skill';
 import {ReactLogo} from '../common/image/icons/reactLogo';
 import {ReduxLogo} from '../common/image/icons/reduxLogo';
@@ -17,13 +17,13 @@ import {SwaggerLogo} from '../common/image/icons/swaggerLogo';
 
 const Skills = () => {
     return (
-        <div id='skills' className={classes.skills}>
-            <div className={classes.skillsContainer}>
-                <div className={classes.titleWrapper}>
-                    <h2 className={classes.title}>SKILLS</h2>
-                    <p className={classes.subTitle}>my tech skills</p>
+        <div id='skills' className={style.skills}>
+            <div className={style.skillsContainer}>
+                <div className={style.titleWrapper}>
+                    <h2 className={style.title}>SKILLS</h2>
+                    <p className={style.subTitle}>my tech skills</p>
                 </div>
-                <div className={classes.skillContainer}>
+                <div className={style.skillContainer}>
                     <Skill title={'React'}><ReactLogo/></Skill>
                     <Skill title={'Redux'}><ReduxLogo/></Skill>
                     <Skill title={'Javascript'}><JavascriptLogo/></Skill>

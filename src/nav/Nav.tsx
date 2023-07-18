@@ -1,11 +1,10 @@
 import React from 'react';
-import classes from './Nav.module.css'
 import {Link} from 'react-scroll';
 import style from './Nav.module.css'
 
 const Nav = () => {
     return (
-        <div className={classes.nav}>
+        <div className={style.nav}>
             <Link to="main" activeClass={style.active} spy={true} smooth={true} offset={-70} duration={500}>
                 Main
             </Link>

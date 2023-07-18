@@ -1,7 +1,5 @@
-
-
 import React, {useEffect, useState} from 'react';
-import classes from './MainPhoto.module.css';
+import style from './MainPhoto.module.css';
 
 interface Position {
     x: number;
@@ -27,9 +25,9 @@ const MainPhoto: React.FC = () => {
         };
     }, [position]);
     return (
-            <div className={classes.image}>
+            <div className={style.image}>
                 {/*<img src="../../common/myAvatar.png" alt="Image"/>*/}
-                <div className={classes.imageOverlay} style={{
+                <div className={style.imageOverlay} style={{
                     backgroundPosition: `calc(50% + ${position.x / 10}px) calc(50% + ${position.y / 10}px)`
                 }}></div>
 
