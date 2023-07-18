@@ -7,9 +7,9 @@ import MainContacts from './MainContacts/MainContacts';
 
 const Main = () => {
     return (
-        <div className={classes.mainBlock}>
+        <div id="main" className={classes.mainBlock}>
             <div className={classes.mainContainer}>
-                <MainContacts />
+                <MainContacts/>
                 <div className={classes.text}>
                     <h4>Hello world !</h4>
                     <div>
@@ -26,8 +26,8 @@ const Main = () => {
                     </div>
                     <p>based in <span className={classes.textLocation}>Moscow,Russia.</span></p>
                     <div className={classes.buttonWrapper}>
-                        <Button title={'Hire me'} src={'#'}/>
-                        <Button title={'view my works'} src={'#'}/>
+                        <Button title={'Hire me'} src={'contacts'}/>
+                        <Button title={'view my works'} src="projects"/>
                     </div>
                 </div>
                 <div className={classes.photo}>

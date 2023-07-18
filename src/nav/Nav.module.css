@@ -6,16 +6,22 @@
 
 }
 
-.navLink {
+.nav a {
     text-decoration: none;
     padding: 0.75rem;
     font-size: 20px;
     font-weight: 900;
     color:var(--text-color);
+    opacity: .7;
     transition: opacity .6s;
 }
 
-.navLink:hover{
-    opacity: 0.5;
+.nav a:hover{
+    opacity: 1;
+    cursor:pointer;
+}
 
+
+.active {
+    opacity: 1;
 }

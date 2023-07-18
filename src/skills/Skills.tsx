@@ -17,7 +17,7 @@ import {SwaggerLogo} from '../common/image/icons/swaggerLogo';
 
 const Skills = () => {
     return (
-        <div className={classes.skills}>
+        <div id='skills' className={classes.skills}>
             <div className={classes.skillsContainer}>
                 <div className={classes.titleWrapper}>
                     <h2 className={classes.title}>SKILLS</h2>
