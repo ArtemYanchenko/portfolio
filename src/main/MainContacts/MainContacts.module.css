@@ -14,12 +14,14 @@
     width: 30px;
     height: 30px;
     fill:#f69e0b;
+    transition: .2s linear;
 }
 
 .uilGithub:hover {
     width: 30px;
     height: 30px;
-    fill:#61472C;
+    fill:var(--text-color);
+
 }
 
 
