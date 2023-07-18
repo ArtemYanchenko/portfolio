@@ -3,13 +3,15 @@ import classes from './Main.module.css';
 import MainPhoto from './MainPhoto/MainPhoto';
 import Typed from 'react-typed';
 import Button from '../common/components/Button/Button';
+import MainContacts from './MainContacts/MainContacts';
 
 const Main = () => {
     return (
         <div className={classes.mainBlock}>
             <div className={classes.mainContainer}>
+                <MainContacts />
                 <div className={classes.text}>
-                    <h4>Hey!</h4>
+                    <h4>Hello world !</h4>
                     <div>
                         <Typed className={classes.typingText}
                                strings={[
@@ -27,7 +29,6 @@ const Main = () => {
                         <Button title={'Hire me'} src={'#'}/>
                         <Button title={'view my works'} src={'#'}/>
                     </div>
-
                 </div>
                 <div className={classes.photo}>
                     <MainPhoto/>

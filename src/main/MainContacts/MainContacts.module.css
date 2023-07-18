@@ -1,0 +1,28 @@
+.contactsWrapper {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    top:35%;
+    left:5%;
+}
+
+.linkWrapper{
+}
+
+.uilGithub {
+    width: 30px;
+    height: 30px;
+    fill:#f69e0b;
+}
+
+.uilGithub:hover {
+    width: 30px;
+    height: 30px;
+    fill:#61472C;
+}
+
+
+/*.uilGithub::before {*/
+/*    */
+/*}*/
