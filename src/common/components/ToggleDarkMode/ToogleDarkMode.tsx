@@ -12,9 +12,11 @@ const ToggleDarkMode = () => {
         if (switchInput.current?.checked) {
             document.documentElement.style.setProperty('--bg-color', '#10172a');
             document.documentElement.style.setProperty('--text-color', '#fff');
+            document.documentElement.style.setProperty('--blackWhite', '#000');
         } else {
             document.documentElement.style.setProperty('--bg-color', '#fff');
             document.documentElement.style.setProperty('--text-color', '#161c2d');
+            document.documentElement.style.setProperty('--blackWhite', '#fff');
         }
     }, [isChecked]);
 

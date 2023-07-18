@@ -1,20 +1,20 @@
-import React, {FC} from 'react';
+import React, {FC, ReactNode} from 'react';
 import classes from './Skill.module.css'
 
 type PropsType = {
-    logo: string
     title: string
-    // description: string
+    children: ReactNode
 }
 
 
-const Skill: FC<PropsType> = ({logo, title}) => {
+const Skill: FC<PropsType> = ({title, children}) => {
     return (
         <div className={classes.skill}>
             <div className={classes.logo}>
+                {children}
             </div>
             <h3>{title}</h3>
-            <div className={classes.description}></div>
+
         </div>
     );
 };

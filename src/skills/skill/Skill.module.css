@@ -1,18 +1,42 @@
 .skill {
-    background-color: aliceblue;
-    width: 300px;
+    width: 250px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    margin-bottom: 10px;
+    background-color: var(--bg-color);
+    border-radius: 15px;
+    padding: 10px;
+    gap: 60px;
+    /*border:1px solid var(--text-color);*/
+    box-shadow: 0px 0px 8px -3px var(--text-color);
+    transition: .2s linear;
 }
+
+.skill h3{
+    transition: .2s linear;
+}
+.skill:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 19px -3px var(--text-color);
+}
+
+.skill:hover h3{
+    color:var(--mainColor)
+}
+
+/*.skill:hover{*/
+/*    box-shadow: 0px 0px 19px -3px var(--text-color);*/
+/*}*/
 
 .logo{
     width:50px;
     height: 50px;
-    background-color: #9bb1c5;
+    /*background-color: #9bb1c5;*/
+    fill:var(--mainColor);
 }
 
 .description {
 
 }
+
+

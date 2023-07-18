@@ -1,32 +1,39 @@
 .skills {
-    min-height: 100vh;
-    background-color: rgba(0, 243, 165, 0.24);
+    height: 60vh;
+    background-color: var(--bg-color);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-
 .skillsContainer {
     width: 80%;
-    border: 1px solid;
+    height: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
-
 .skillContainer {
-    width: 100%;
-    display: flex;
-    border: 1px solid;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-bottom: 30px;
+}
 
+.titleWrapper {
+    margin-bottom: 50px;
 }
 
 .title{
-    margin-bottom: 150px;
+    font-size: 40px;
+}
+
+.subTitle{
+    text-align: center;
+    font-size: 17px;
+    opacity: .5;
 }

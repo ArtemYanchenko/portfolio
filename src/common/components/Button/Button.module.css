@@ -1,8 +1,8 @@
 .btn {
-    color: #f69e0b;
+    color: var(--mainColor);
     text-transform: uppercase;
     text-decoration: none;
-    border: 2px solid #f69e0b;
+    border: 2px solid var(--mainColor);
     padding: 10px 20px;
     font-size: 17px;
     font-weight: bold;
@@ -25,7 +25,7 @@
     top: 0;
     left: -40px;
     transform: skewX(45deg);
-    background-color: #f69e0b;
+    background-color: var(--mainColor);
     z-index: -1;
     transition: all 1s;
 }
