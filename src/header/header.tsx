@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import style from './Header.module.css'
+import style from './header.module.css'
 import {Nav} from '../nav/nav';
 import {ToggleDarkMode} from '../common/components/toggle-dark-mode/toggle-dark-mode';
 

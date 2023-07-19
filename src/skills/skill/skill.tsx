@@ -1,13 +1,13 @@
 import React, {FC, ReactNode} from 'react';
-import style from './Skill.module.css'
+import style from './skill.module.css'
 
-type PropsType = {
+type Props = {
     title: string
     children: ReactNode
 }
 
 
-const Skill: FC<PropsType> = ({title, children}) => {
+export const Skill: FC<Props> = ({title, children}) => {
     return (
         <div className={style.skill}>
             <div className={style.logo}>
@@ -18,5 +18,3 @@ const Skill: FC<PropsType> = ({title, children}) => {
         </div>
     );
 };
-
-export default Skill;

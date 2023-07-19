@@ -1,12 +1,12 @@
 import React from 'react';
-import {Header} from './header/Header';
+import {Header} from './header/header';
 import {Main} from './main/main';
 import {Projects} from './projects/projects';
-import style from './App.module.css';
+import style from './app.module.css';
 import {Contacts} from './contacts/contacts';
-import {Skills} from './skills/Skills';
+import {Skills} from './skills/skills';
 
-const App = () => {
+export const App = () => {
     return (
         <div className={style.app}>
             <Header/>
@@ -18,4 +18,3 @@ const App = () => {
     );
 }
 
-export default App;
