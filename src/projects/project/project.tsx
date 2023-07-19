@@ -1,7 +1,7 @@
 import React, {FC} from 'react';
-import style from './Project.module.css'
+import style from './project.module.css'
 
-type PropsType = {
+type Props = {
     image: string
     title: string
     description: string
@@ -9,7 +9,7 @@ type PropsType = {
     linkGit: string
 }
 
-const Project: FC<PropsType> = ({image, title, description, linkDemo,linkGit}) => {
+export const Project: FC<Props> = ({image, title, description, linkDemo,linkGit}) => {
     return (
         <div className={style.project}>
             <div className={style.image}>
@@ -28,5 +28,3 @@ const Project: FC<PropsType> = ({image, title, description, linkDemo,linkGit}) =
         </div>
     );
 };
-
-export default Project;

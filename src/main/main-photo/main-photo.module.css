@@ -1,7 +1,5 @@
 .image {
     position: relative;
-    /*width: 100%;*/
-    /*height: 100vh;*/
     width: 450px;
     height: 450px;
 }
@@ -20,7 +18,6 @@
     width: 105%;
     height: 120%;
     background-image: url("../../common/image/myAvatar.png");
-    /*pointer-events: none;*/
     background-repeat: no-repeat;
     background-size: 105%;
 }

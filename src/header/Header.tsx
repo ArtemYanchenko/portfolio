@@ -1,9 +1,9 @@
 import React, {useEffect, useState} from 'react';
 import style from './Header.module.css'
-import Nav from '../nav/Nav';
-import ToogleDarkMode from '../common/components/ToggleDarkMode/ToogleDarkMode';
+import {Nav} from '../nav/nav';
+import {ToggleDarkMode} from '../common/components/toggle-dark-mode/toggle-dark-mode';
 
-const Header = () => {
+export const Header = () => {
     const [scroll, setScroll] = useState(false);
 
     useEffect(() => {
@@ -22,11 +22,8 @@ const Header = () => {
 
     return (
         <div className={headerClasses.join(' ')}>
-
             <Nav/>
-            <ToogleDarkMode/>
+            <ToggleDarkMode/>
         </div>
     );
 };
-
-export default Header;

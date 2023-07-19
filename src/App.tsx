@@ -1,12 +1,12 @@
 import React from 'react';
-import Header from './header/Header';
-import Main from './main/Main';
-import Skills from './skills/Skills';
-import Projects from './projects/Projects';
+import {Header} from './header/Header';
+import {Main} from './main/main';
+import {Projects} from './projects/projects';
 import style from './App.module.css';
 import {Contacts} from './contacts/contacts';
+import {Skills} from './skills/Skills';
 
-function App() {
+const App = () => {
     return (
         <div className={style.app}>
             <Header/>

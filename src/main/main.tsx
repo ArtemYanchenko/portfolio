@@ -1,11 +1,11 @@
 import React from 'react';
-import style from './Main.module.css';
-import MainPhoto from './MainPhoto/MainPhoto';
+import style from './main.module.css';
+import {MainPhoto} from './main-photo/main-photo';
 import Typed from 'react-typed';
-import Button from '../common/components/Button/Button';
-import MainContacts from './MainContacts/MainContacts';
+import {Button} from '../common/components/button/button';
+import {MainContacts} from './main-contacts/main-contacts';
 
-const Main = () => {
+export const Main = () => {
     return (
         <div id="main" className={style.mainBlock}>
             <div className={style.mainContainer}>
@@ -37,5 +37,3 @@ const Main = () => {
         </div>
     );
 };
-
-export default Main;

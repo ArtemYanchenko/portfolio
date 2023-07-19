@@ -1,47 +1,47 @@
 import React from 'react';
 import style from './Skills.module.css'
 import Skill from './skill/Skill';
-import {ReactLogo} from '../common/image/icons/reactLogo';
-import {ReduxLogo} from '../common/image/icons/reduxLogo';
-import {JavascriptLogo} from '../common/image/icons/javascriptLogo';
-import {TypescriptLogo} from '../common/image/icons/typescriptLogo';
-import {HtmlLogo} from '../common/image/icons/htmlLogo';
-import {CssLogo} from '../common/image/icons/cssLogo';
-import {NextdotjsLogo} from '../common/image/icons/nextdotjsLogo';
-import {GitLogo} from '../common/image/icons/gitLogo';
-import {JestLogo} from '../common/image/icons/jestLogo';
-import {StorybookLogo} from '../common/image/icons/storybookLogo';
-import {PostmanLogo} from '../common/image/icons/postmanLogo';
-import {SwaggerLogo} from '../common/image/icons/swaggerLogo';
+import {ReactLogo} from '../common/image/icons/icons-skills/reactLogo';
+import {ReduxLogo} from '../common/image/icons/icons-skills/reduxLogo';
+import {JavascriptLogo} from '../common/image/icons/icons-skills/javascriptLogo';
+import {TypescriptLogo} from '../common/image/icons/icons-skills/typescriptLogo';
+import {HtmlLogo} from '../common/image/icons/icons-skills/htmlLogo';
+import {CssLogo} from '../common/image/icons/icons-skills/cssLogo';
+import {NextdotjsLogo} from '../common/image/icons/icons-skills/nextdotjsLogo';
+import {GitLogo} from '../common/image/icons/icons-skills/gitLogo';
+import {JestLogo} from '../common/image/icons/icons-skills/jestLogo';
+import {StorybookLogo} from '../common/image/icons/icons-skills/storybookLogo';
+import {PostmanLogo} from '../common/image/icons/icons-skills/postmanLogo';
+import {SwaggerLogo} from '../common/image/icons/icons-skills/swaggerLogo';
 import {Title} from '../common/components/title/title';
 
+export const Skills = () => {
+    const skills = [
+        {title: 'React', logo: ReactLogo},
+        {title: 'Redux', logo: ReduxLogo},
+        {title: 'Javascript', logo: JavascriptLogo},
+        {title: 'Typescript', logo: TypescriptLogo},
+        {title: 'HTML', logo: HtmlLogo},
+        {title: 'CSS', logo: CssLogo},
+        {title: 'NextJS', logo: NextdotjsLogo},
+        {title: 'GIT', logo: GitLogo},
+        {title: 'JEST', logo: JestLogo},
+        {title: 'StoryBook', logo: StorybookLogo},
+        {title: 'Postman', logo: PostmanLogo},
+        {title: 'Swagger', logo: SwaggerLogo},
+    ]
+    const mappedSkills = skills.map(el => <Skill title={el.title}>
+        <el.logo/>
+    </Skill>)
 
-const Skills = () => {
     return (
-        <div id='skills' className={style.skills}>
+        <div id="skills" className={style.skills}>
             <div className={style.skillsContainer}>
-                <Title title='skills' subTitle='my tech skills'/>
-                {/*<div className={style.titleWrapper}>*/}
-                {/*    <h2 className={style.title}>SKILLS</h2>*/}
-                {/*    <p className={style.subTitle}>my tech skills</p>*/}
-                {/*</div>*/}
+                <Title title="skills" subTitle="my tech skills"/>
                 <div className={style.skillContainer}>
-                    <Skill title={'React'}><ReactLogo/></Skill>
-                    <Skill title={'Redux'}><ReduxLogo/></Skill>
-                    <Skill title={'Javascript'}><JavascriptLogo/></Skill>
-                    <Skill title={'Typescript'}><TypescriptLogo/></Skill>
-                    <Skill title={'HTML'}><HtmlLogo/></Skill>
-                    <Skill title={'CSS'}><CssLogo/></Skill>
-                    <Skill title={'NextJS'}><NextdotjsLogo/></Skill>
-                    <Skill title={'GIT'}><GitLogo/></Skill>
-                    <Skill title={'JEST'}><JestLogo/></Skill>
-                    <Skill title={'StoryBook'}><StorybookLogo/></Skill>
-                    <Skill title={'Postman'}><PostmanLogo/></Skill>
-                    <Skill title={'Swagger'}><SwaggerLogo/></Skill>
+                    {mappedSkills}
                 </div>
             </div>
         </div>
     );
 };
-
-export default Skills;

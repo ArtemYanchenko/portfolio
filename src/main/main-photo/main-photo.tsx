@@ -1,12 +1,12 @@
-import React, {useEffect, useState} from 'react';
-import style from './MainPhoto.module.css';
+import React, {FC, useEffect, useState} from 'react';
+import style from './main-photo.module.css';
 
-interface Position {
+type Position = {
     x: number;
     y: number;
 }
 
-const MainPhoto: React.FC = () => {
+export const MainPhoto:FC = () => {
     const [position, setPosition] = useState<Position>({ x: 0, y: 0 });
 
     const handleMouseMove = (event: MouseEvent) => {
@@ -26,7 +26,6 @@ const MainPhoto: React.FC = () => {
     }, [position]);
     return (
             <div className={style.image}>
-                {/*<img src="../../common/myAvatar.png" alt="Image"/>*/}
                 <div className={style.imageOverlay} style={{
                     backgroundPosition: `calc(50% + ${position.x / 10}px) calc(50% + ${position.y / 10}px)`
                 }}></div>
@@ -35,4 +34,3 @@ const MainPhoto: React.FC = () => {
     );
 };
 
-export default MainPhoto;

@@ -9,32 +9,22 @@
     padding: 10px;
     border-radius: 10px;
     transition: .2s linear;
-    box-shadow: 0px 0px 8px -3px var(--text-color);
+    box-shadow: 0 0 8px -3px var(--text-color);
 }
 
 .contactsWrapper:hover {
-    box-shadow: 0px 0px 19px -3px var(--text-color);
+    box-shadow: 0 0 19px -3px var(--text-color);
 }
 
-
-.linkWrapper{
-}
-
-.uilGithub {
+a svg {
     width: 30px;
     height: 30px;
     fill:var(--mainColor);
     transition: .2s linear;
 }
 
-.uilGithub:hover {
+a svg:hover{
     width: 30px;
     height: 30px;
     fill:var(--text-color);
-
 }
-
-
-/*.uilGithub::before {*/
-/*    */
-/*}*/

@@ -1,13 +1,13 @@
 import React from 'react';
-import s from './Button.module.css'
+import s from './button.module.css'
 import {Link} from 'react-scroll';
-import style from '../../../nav/Nav.module.css';
+import style from '../../../nav/nav.module.css';
 
 type PropsType = {
     title: string
     src: string
 }
-const Button = (props: PropsType) => {
+export const Button = (props: PropsType) => {
     return (
         <Link to={props.src} activeClass={style.active} spy={true} smooth={true} offset={-70} duration={500}>
             <button className={s.btn}>
@@ -16,5 +16,3 @@ const Button = (props: PropsType) => {
         </Link>
     );
 };
-
-export default Button;
