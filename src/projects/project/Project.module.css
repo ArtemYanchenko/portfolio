@@ -1,31 +1,33 @@
 .project {
-    width: 500px;
-    background-color: aliceblue;
-    border: 1px solid;
+    width: 350px;
+    background-color: var(--bgSecondary-color);
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: .2s linear;
+    box-shadow: 0px 0px 8px -3px var(--text-color);
+}
+
+.project:hover {
+    /*cursor: pointer;*/
+    box-shadow: 0px 0px 19px -3px var(--text-color);
+}
+
+.image img {
+    width: 100%;
 }
 
 .image {
-    width: 100%;
-    height: 500px;
-    background-color: #9bb1c5;
-    background-image: url("https://internetpolicy.kg/literacymodule/course_1/module1/images/pic1_2_1.png");
-    background-size: cover;
-    background-position: center;
+    width: 300px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 15px;
 }
 
-.button {
-    background-color: aquamarine;
-    border: 1px solid;
-    padding: 10px;
-}
 
 .title {
     width: 80%;
@@ -35,4 +37,43 @@
 .description {
     width: 80%;
     background-color: #c4799c;
+}
+
+
+button {
+    padding: 0.6em 1.2em;
+    border: 2px solid var(--mainColor);
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: bold;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: var(--mainColor);
+}
+
+button::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: var(--mainColor);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+
+button:hover::before {
+    width: 105%;
+}
+
+button:hover {
+    color: var(--text-color);
 }

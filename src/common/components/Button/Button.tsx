@@ -9,11 +9,11 @@ type PropsType = {
 }
 const Button = (props: PropsType) => {
     return (
-            <Link to={props.src} activeClass={style.active} spy={true} smooth={true} offset={-70} duration={500}>
-                <button className={s.btn}>
-                    {props.title}
-                </button>
-            </Link>
+        <Link to={props.src} activeClass={style.active} spy={true} smooth={true} offset={-70} duration={500}>
+            <button className={s.btn}>
+                {props.title}
+            </button>
+        </Link>
     );
 };
 
