@@ -5,21 +5,19 @@ import keyboard from '../common/image/Typing-bro.png'
 import network from '../common/image/Post-cuate.png'
 import todo from '../common/image/Checklist-rafiki.png'
 import counter from '../common/image/Calculator-cuate.png'
+import {Title} from '../common/components/title/title';
 
 const Projects = () => {
     return (
         <div id='projects' className={style.projects}>
             <div className={style.projectsContainer}>
-                <div className={style.titleWrapper}>
-                    <h2 className={style.title}>PROJECTS</h2>
-                    <p className={style.subTitle}>my pets projects</p>
-                </div>
+                <Title title='projects' subTitle='my pets projects'/>
                 <div className={style.projectContainer}>
                     <Project
                         title={'Todo'}
                         description={'Complex project that using React-hooks, Redux ToolKit, Axios and Rest API.'}
                         image={todo}
-                        linkDemo={''}
+                        linkDemo={'https://artemyanchenko.github.io/todolist'}
                         linkGit={'https://github.com/ArtemYanchenko/1-todolist'}
                     />
                     <Project
@@ -34,7 +32,7 @@ const Projects = () => {
                         description={'Virtual keyboard can  be used as an additional input method.'}
                         image={keyboard}
                         linkDemo={'https://artemyanchenko.github.io/virtual-keyboard'}
-                        linkGit={''}
+                        linkGit={'https://github.com/ArtemYanchenko/virtual-keyboard'}
                     />
                     <Project
                         title={'Counter'}

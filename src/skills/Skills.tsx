@@ -13,16 +13,18 @@ import {JestLogo} from '../common/image/icons/jestLogo';
 import {StorybookLogo} from '../common/image/icons/storybookLogo';
 import {PostmanLogo} from '../common/image/icons/postmanLogo';
 import {SwaggerLogo} from '../common/image/icons/swaggerLogo';
+import {Title} from '../common/components/title/title';
 
 
 const Skills = () => {
     return (
         <div id='skills' className={style.skills}>
             <div className={style.skillsContainer}>
-                <div className={style.titleWrapper}>
-                    <h2 className={style.title}>SKILLS</h2>
-                    <p className={style.subTitle}>my tech skills</p>
-                </div>
+                <Title title='skills' subTitle='my tech skills'/>
+                {/*<div className={style.titleWrapper}>*/}
+                {/*    <h2 className={style.title}>SKILLS</h2>*/}
+                {/*    <p className={style.subTitle}>my tech skills</p>*/}
+                {/*</div>*/}
                 <div className={style.skillContainer}>
                     <Skill title={'React'}><ReactLogo/></Skill>
                     <Skill title={'Redux'}><ReduxLogo/></Skill>

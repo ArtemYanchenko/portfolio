@@ -1,0 +1,14 @@
+.titleWrapper {
+    margin-bottom: 50px;
+}
+
+.title{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.subTitle{
+    text-align: center;
+    font-size: 17px;
+    opacity: .5;
+}
