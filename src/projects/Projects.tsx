@@ -15,10 +15,34 @@ const Projects = () => {
                     <p className={style.subTitle}>my pets projects</p>
                 </div>
                 <div className={style.projectContainer}>
-                    <Project title={'Todo'} description={'Complex project that using React-hooks, Redux ToolKit, Axios and Rest API'} image={todo} link={''}/>
-                    <Project title={'Social Network'} description={'Developers social network. Many features still in progress. But you can use base functions of any social network'} image={network} link={''}/>
-                    <Project title={'Virtual KB'} description={'description'} image={keyboard} link={'https://artemyanchenko.github.io/virtual-keyboard'}/>
-                    <Project title={'Counter'} description={'description'} image={counter} link={'https://artemyanchenko.github.io/counter/'}/>
+                    <Project
+                        title={'Todo'}
+                        description={'Complex project that using React-hooks, Redux ToolKit, Axios and Rest API.'}
+                        image={todo}
+                        linkDemo={''}
+                        linkGit={'https://github.com/ArtemYanchenko/1-todolist'}
+                    />
+                    <Project
+                        title={'Social Network'}
+                        description={'Developers social network. Many features still in progress. But you can use base functions of any social network.'}
+                        image={network}
+                        linkDemo={''}
+                        linkGit={''}
+                    />
+                    <Project
+                        title={'Virtual Keyboard'}
+                        description={'Virtual keyboard can  be used as an additional input method.'}
+                        image={keyboard}
+                        linkDemo={'https://artemyanchenko.github.io/virtual-keyboard'}
+                        linkGit={''}
+                    />
+                    <Project
+                        title={'Counter'}
+                        description={'Lite pet project from increment and decrement number))'}
+                        image={counter}
+                        linkDemo={'https://artemyanchenko.github.io/counter/'}
+                        linkGit={'https://github.com/ArtemYanchenko/counter'}
+                    />
                 </div>
             </div>
         </div>

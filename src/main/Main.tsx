@@ -17,10 +17,10 @@ const Main = () => {
                                strings={[
                                    'I\'m Artem Yanchenko',
                                    'I\'m FrontEnd Developer',
-                                   'I\'m Software Engineer'
+                                   'I\'m Software Engineer',
                                ]}
-                               typeSpeed={100}
-                               backSpeed={50}
+                               typeSpeed={25}
+                               backSpeed={15}
                                loop
                         />
                     </div>

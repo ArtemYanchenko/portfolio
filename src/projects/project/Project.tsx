@@ -1,25 +1,30 @@
 import React, {FC} from 'react';
 import style from './Project.module.css'
-import Button from '../../common/components/Button/Button';
 
 type PropsType = {
     image: string
     title: string
     description: string
-    link: string
+    linkDemo: string
+    linkGit: string
 }
 
-const Project: FC<PropsType> = ({image, title, description, link}) => {
+const Project: FC<PropsType> = ({image, title, description, linkDemo,linkGit}) => {
     return (
         <div className={style.project}>
             <div className={style.image}>
-                <img src={image} alt=""/>
+                <img src={image} alt={title}/>
             </div>
-            <span className={style.title}>{title}</span>
-            <p className={style.description}>{description}</p>
-            <a href={link} target='_blank'>
-                <button>demo</button>
-            </a>
+            <h3 className={style.title}>{title}</h3>
+            <div className={style.description}>{description}</div>
+            <div className={style.buttonWrapper}>
+                <a href={linkDemo} target="_blank">
+                    <button>demo</button>
+                </a>
+                <a href={linkGit} target="_blank">
+                    <button>code</button>
+                </a>
+            </div>
         </div>
     );
 };

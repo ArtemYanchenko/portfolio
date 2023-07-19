@@ -22,6 +22,7 @@ const Header = () => {
 
     return (
         <div className={headerClasses.join(' ')}>
+
             <Nav/>
             <ToogleDarkMode/>
         </div>
