@@ -3,7 +3,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .projectsContainer{
@@ -13,6 +12,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .projectContainer {
@@ -20,6 +20,5 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 100px;
-    margin-bottom: 30px;
 }
 

@@ -19,8 +19,8 @@ export const MainContacts = () => {
         </a>)
 
     return (
-        <div className={s.contactsWrapper}>
+        <aside className={s.contactsWrapper}>
                 {mappedLinks}
-        </div>
+        </aside>
     );
 };

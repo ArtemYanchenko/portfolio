@@ -1,7 +1,7 @@
 .header {
     height: 80px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     position: fixed;
     top: 0;
     left: 0;
@@ -19,3 +19,25 @@
     box-shadow: 0 -37px 49px 1px var(--text-color);
 }
 
+
+.headerName{
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    opacity: 0.7;
+    cursor: pointer;
+    transition: color .6s;
+}
+
+.headerName:hover {
+    color:rgb(246,158,11);
+}
+
+
+.navToggleWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}

@@ -28,3 +28,14 @@ a svg:hover{
     height: 30px;
     fill:var(--text-color);
 }
+
+
+.link:nth-child(2) svg:hover{
+    fill: #0c65c2;
+}
+.link:nth-child(3) svg:hover{
+    fill: #cc2366;
+}
+.link:nth-child(4) svg:hover{
+    fill: #27a6e6;
+}

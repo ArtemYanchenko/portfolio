@@ -1,10 +1,11 @@
 import React from 'react';
+import style from './app.module.css';
 import {Header} from './header/header';
 import {Main} from './main/main';
 import {Projects} from './projects/projects';
-import style from './app.module.css';
 import {Contacts} from './contacts/contacts';
 import {Skills} from './skills/skills';
+import {Footer} from './footer/footer';
 
 export const App = () => {
     return (
@@ -14,6 +15,7 @@ export const App = () => {
             <Skills/>
             <Projects/>
             <Contacts/>
+            <Footer/>
         </div>
     );
 }
