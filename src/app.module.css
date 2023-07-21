@@ -3,5 +3,5 @@
     color:var(--text-color);
 }
 
-@media max-width() {
+@media max-width {
 }
