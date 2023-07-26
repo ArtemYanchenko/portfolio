@@ -16,9 +16,18 @@
 }
 
 .projectContainer {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     grid-gap: 100px;
+}
+
+
+@media (max-width: 767px) {
+    .projectContainer{
+        grid-gap: 40px;
+    }
 }
 

@@ -12,7 +12,7 @@ export const Main = () => {
                 <MainContacts/>
                 <div className={style.text}>
                     <h4>Hello world !</h4>
-                    <div>
+                    <div className={style.typingTextWrapper}>
                         <Typed className={style.typingText}
                                strings={[
                                    'I\'m Artem Yanchenko',

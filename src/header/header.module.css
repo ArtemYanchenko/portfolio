@@ -41,3 +41,9 @@
     justify-content: center;
     flex-direction: row;
 }
+
+@media (max-width: 767px) {
+    header{
+        font-size: 0.1rem;
+    }
+}
