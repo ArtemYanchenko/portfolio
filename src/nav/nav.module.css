@@ -6,9 +6,7 @@
 
 }
 
-.navClose{
-    display: none;
-}
+
 
 .nav a {
     text-decoration: none;
@@ -42,5 +40,8 @@
     }
     .burgerBtn {
         display: block;
+    }
+    .navClose{
+        display: none;
     }
 }

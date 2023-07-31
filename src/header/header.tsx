@@ -24,8 +24,8 @@ export const Header = () => {
         <header className={headerClasses.join(' ')}>
             <div className={style.headerName}>Artem Yanchenko</div>
             <div className={style.navToggleWrapper}>
-                <ToggleDarkMode/>
                 <Nav/>
+                <ToggleDarkMode/>
             </div>
         </header>
     );

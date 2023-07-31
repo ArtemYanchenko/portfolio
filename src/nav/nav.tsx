@@ -27,7 +27,7 @@ export const Nav = () => {
             <div className={style.burgerBtn} onClick={handleToggle}>
                 <img src={burger} alt="burger" />
             </div>
-            <div className={isOpen ? style.nav : style.navClose}>
+            <div className={isOpen ? style.nav  :  `${style.nav} ${style.navClose}`}>
                 {mappedLinks}
             </div>
         </>
