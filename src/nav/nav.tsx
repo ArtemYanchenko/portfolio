@@ -1,8 +1,14 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {Link} from 'react-scroll';
 import style from './nav.module.css'
+import burger from '../common/image/icons/icons-header/burger.svg'
 
 export const Nav = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const handleToggle = () => {
+        setIsOpen(!isOpen);
+    };
     const links = ['main', 'skills', 'projects', 'contacts']
 
     const mappedLinks = links.map(el =>
@@ -17,8 +23,14 @@ export const Nav = () => {
         </Link>)
 
     return (
-        <div className={style.nav}>
-            {mappedLinks}
-        </div>
+        <>
+            <div className={style.burgerBtn} onClick={handleToggle}>
+                <img src={burger} alt="burger" />
+            </div>
+            <div className={isOpen ? style.nav : style.navClose}>
+                {mappedLinks}
+            </div>
+        </>
+
     );
 };

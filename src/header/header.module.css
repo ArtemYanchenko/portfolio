@@ -9,7 +9,7 @@
     z-index: 999;
     background-color: transparent;
     transition: background-color 0.5s ease-in-out;
-    padding: 0 100px;
+    padding: 0 10px;
 }
 
 .header.scroll {
@@ -43,7 +43,13 @@
 }
 
 @media (max-width: 767px) {
-    header{
-        font-size: 0.1rem;
+    .header{
+        background-color: var(--bg-color);
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    .headerName{
+        display: none;
     }
 }

@@ -18,15 +18,15 @@
     width: 80%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    gap: 10px;
 }
 
 .text {
-    min-width: 60%;
-    width: 730px;
-    font-size: 45px;
+    width: 550px;
+    font-size: 40px;
     text-transform: uppercase;
 }
 
@@ -97,5 +97,24 @@
     }
     .text{
         font-size: 35px;
+
     }
+    .typingText{
+        color:var(--text-color);
+    }
+    .photo{
+        display: none;
+    }
+    .buttonWrapper button{
+        color:var(--text-color);
+        opacity: .8;
+        border-color: var(--text-color);
+    }
+}
+
+
+
+
+@media (max-width: 400px){
+
 }

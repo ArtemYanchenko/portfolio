@@ -21,10 +21,3 @@
     background-repeat: no-repeat;
     background-size: 105%;
 }
-
-@media (max-width: 767px) {
-    .image {
-        width: 350px;
-        height: 350px;
-    }
-}
