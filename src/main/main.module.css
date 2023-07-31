@@ -15,7 +15,7 @@
 }
 
 .mainContainer {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -26,7 +26,7 @@
 .text {
     min-width: 60%;
     width: 730px;
-    font-size: 55px;
+    font-size: 45px;
     text-transform: uppercase;
 }
 
@@ -88,7 +88,14 @@
 }
 
 @media (max-width: 767px) {
-    .typingTextWrapper {
-        height: 160px;
+    .mainBlock{
+        padding: 150px 0 50px 0;
+    }
+    .mainContainer{
+        justify-content: center;
+        gap: 50px;
+    }
+    .text{
+        font-size: 35px;
     }
 }

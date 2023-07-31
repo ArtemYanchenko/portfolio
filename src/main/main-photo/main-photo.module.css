@@ -1,7 +1,7 @@
 .image {
     position: relative;
-    width: 450px;
-    height: 450px;
+    width: 400px;
+    height: 400px;
 }
 
 .image img {
@@ -20,4 +20,11 @@
     background-image: url("../../common/image/myAvatar.png");
     background-repeat: no-repeat;
     background-size: 105%;
+}
+
+@media (max-width: 767px) {
+    .image {
+        width: 350px;
+        height: 350px;
+    }
 }

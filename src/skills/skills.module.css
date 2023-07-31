@@ -23,3 +23,9 @@
     flex-wrap: wrap;
     grid-gap: 30px;
 }
+
+@media (max-width: 767px) {
+    .skillsContainer {
+        width: 80%;
+    }
+}
