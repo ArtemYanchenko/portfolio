@@ -99,8 +99,12 @@
         font-size: 35px;
 
     }
+    .typingTextWrapper{
+        height: 100px;
+    }
     .typingText{
         color:var(--text-color);
+
     }
     .photo{
         display: none;
