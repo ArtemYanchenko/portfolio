@@ -86,3 +86,10 @@ button:hover::before {
 button:hover {
     color: var(--text-color);
 }
+
+
+@media (max-width: 767px) {
+    .project{
+       width: 300px;
+    }
+}
