@@ -2,4 +2,5 @@
 
 https://yanchenko.site
 
-I'm a developer with experience building SPAs using React/Redux/TypeScript/HTML&CSS/SCSS. I like to develop applications that bring real value to the end user. Now I am improving my skills in this area and expanding my knowledge with new technologies (Node.js). I spend my free time reading educational literature, as well as improving my English.
+
+![Screen Recording 2023-09-24 at 20 21 21](https://github.com/ArtemYanchenko/portfolio/assets/68869871/125acccf-1ecb-4a30-8014-fee6dff43b63)
