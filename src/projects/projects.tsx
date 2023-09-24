@@ -9,10 +9,11 @@ import {Project} from './project/project';
 
 export const Projects = () => {
     const projects = [
-        {title:'Todo',description:'Complex project that using React-hooks, Redux ToolKit, Axios and Rest API.', image:todo,linkDemo:'https://artemyanchenko.github.io/1-todolist/#',linkGit:'https://github.com/ArtemYanchenko/1-todolist'},
-        {title:'Social Network',description:'Developers social network. Many features still in progress. But you can use base functions of any social network.', image:network,linkDemo:'',linkGit:''},
-        {title:'Virtual Keyboard',description:'Virtual keyboard can  be used as an additional input method.', image:keyboard,linkDemo:'https://artemyanchenko.github.io/virtual-keyboard',linkGit:'https://github.com/ArtemYanchenko/virtual-keyboard'},
-        {title:'Counter',description:'Lite pet project from increment and decrement number😀', image:counter,linkDemo:'https://artemyanchenko.github.io/counter',linkGit:'https://github.com/ArtemYanchenko/counter'},
+        {title:'Todo',description:'Complex project that using React-hooks, Redux ToolKit, Axios and Rest API.', image:todo,linkDemo:'https://artemyanchenko.github.io/1-todolist/#'},
+        {title:'Cards',description:'Educational cards for learning programming using TypeScript | React | RTK Query | Storybook | React-Hook-Form | Axios | Radix', image:todo,linkDemo:'https://flaskcards-project.vercel.app/'},
+        {title:'Social Network',description:'Developers social network. Many features still in progress. But you can use base functions of any social network.', image:network,linkDemo:'https://artemyanchenko.github.io/social-network/#/'},
+        {title:'Virtual Keyboard',description:'Virtual keyboard can  be used as an additional input method.', image:keyboard,linkDemo:'https://artemyanchenko.github.io/virtual-keyboard'},
+        {title:'Counter',description:'Lite pet project from increment and decrement number😀', image:counter,linkDemo:'https://artemyanchenko.github.io/counter'},
     ]
 
     const mappedProjects = projects.map(el=>
@@ -21,7 +22,6 @@ export const Projects = () => {
             description={el.description}
             image={el.image}
             linkDemo={el.linkDemo}
-            linkGit={el.linkGit}
         />
     )
 

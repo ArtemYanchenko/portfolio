@@ -6,10 +6,9 @@ type Props = {
     title: string
     description: string
     linkDemo: string
-    linkGit: string
 }
 
-export const Project: FC<Props> = ({image, title, description, linkDemo,linkGit}) => {
+export const Project: FC<Props> = ({image, title, description, linkDemo}) => {
     return (
         <div className={style.project}>
             <div className={style.image}>
@@ -20,9 +19,6 @@ export const Project: FC<Props> = ({image, title, description, linkDemo,linkGit}
             <div className={style.buttonWrapper}>
                 <a href={linkDemo} target="_blank">
                     <button>demo</button>
-                </a>
-                <a href={linkGit} target="_blank">
-                    <button>code</button>
                 </a>
             </div>
         </div>

@@ -8,7 +8,7 @@ import {SvgTeleg} from '../../common/image/icons/icons-contacts/svgTeleg';
 export const MainContacts = () => {
     const links = [
         {link: 'https://github.com/ArtemYanchenko', logo: SvgGit},
-        {link: '#', logo: SvgLink},
+        {link: 'https://www.linkedin.com/in/artem-yanchenko/', logo: SvgLink},
         {link: 'https://www.instagram.com/tema.yanchenko', logo: SvgInst},
         {link: 'https://t.me/tematemofeev', logo: SvgTeleg},
     ]
