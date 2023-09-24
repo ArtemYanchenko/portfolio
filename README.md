@@ -1,5 +1,7 @@
 # Hi, I'm Artem Yanchenko
 
+Stack: Typescript | React | React Router Dom | React Hook Form | Axios
+
 https://yanchenko.site
 
 
