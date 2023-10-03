@@ -1,5 +1,6 @@
 .project {
     width: 350px;
+    height: 475px;
     background-color: var(--bgSecondary-color);
     display: flex;
     flex-direction: column;
