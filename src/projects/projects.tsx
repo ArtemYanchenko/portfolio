@@ -3,6 +3,7 @@ import style from './projects.module.css'
 import keyboard from '../common/image/Typing-bro.png'
 import network from '../common/image/Post-cuate.png'
 import todo from '../common/image/Checklist-rafiki.png'
+import cards from '../common/image/Learning-rafiki.png'
 import counter from '../common/image/Calculator-cuate.png'
 import {Title} from '../common/components/title/title';
 import {Project} from './project/project';
@@ -10,7 +11,7 @@ import {Project} from './project/project';
 export const Projects = () => {
     const projects = [
         {title:'Task tracker',description:'Complex project that using React-hooks, Redux ToolKit, Axios and Rest API.', image:todo,linkDemo:'https://artemyanchenko.github.io/task-tracker/#/'},
-        {title:'Cards',description:'Educational cards for learning programming using TypeScript | React | RTK Query | Storybook | React-Hook-Form | Axios | Radix', image:todo,linkDemo:'https://flaskcards-project.vercel.app/'},
+        {title:'Cards',description:'Educational cards for learning programming using TypeScript | React | RTK Query | Storybook | React-Hook-Form | Axios | Radix', image:cards,linkDemo:'https://flaskcards-project.vercel.app/'},
         {title:'Social Network',description:'Developers social network. Many features still in progress. But you can use base functions of any social network.', image:network,linkDemo:'https://artemyanchenko.github.io/social-network/#/'},
         {title:'Virtual Keyboard',description:'Virtual keyboard can  be used as an additional input method.', image:keyboard,linkDemo:'https://artemyanchenko.github.io/virtual-keyboard'},
         {title:'Counter',description:'Lite pet project from increment and decrement number😀', image:counter,linkDemo:'https://artemyanchenko.github.io/counter'},
